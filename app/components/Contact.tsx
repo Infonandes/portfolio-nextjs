@@ -1,27 +1,37 @@
 'use client'
 
-import { FaLinkedinIn, FaEnvelope, FaWhatsapp, FaGithub } from 'react-icons/fa'
+import { FaLinkedinIn, FaEnvelope, FaWhatsapp, FaGithub, FaYoutube, FaInstagram } from 'react-icons/fa'
 
 const contactLinks = [
   {
     Icon: FaLinkedinIn,
-    url: 'https://linkedin.com/in/almirfernandespereira',
+    url: 'https://www.linkedin.com/in/almirfernandespereira/',
     label: 'LinkedIn',
   },
   {
+    Icon: FaGithub,
+    url: 'https://github.com/infonandes',
+    label: 'GitHub',
+  },
+  {
+    Icon: FaYoutube,
+    url: 'https://www.youtube.com/@INFONANDES',
+    label: 'YouTube',
+  },
+  {
+    Icon: FaInstagram,
+    url: 'https://www.instagram.com/infonandes',
+    label: 'Instagram',
+  },
+  {
     Icon: FaEnvelope,
-    url: 'mailto:almirfpereira@hotmail.com',
+    url: 'mailto:almir.pereira@infonandes.cloud',
     label: 'Email',
   },
   {
     Icon: FaWhatsapp,
     url: 'https://wa.me/5531985676251',
     label: 'WhatsApp',
-  },
-  {
-    Icon: FaGithub,
-    url: 'https://github.com/almirfernandes',
-    label: 'GitHub',
   },
 ]
 

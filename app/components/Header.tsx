@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { FaBars, FaTimes, FaLinkedinIn, FaGithub, FaWhatsapp } from 'react-icons/fa'
+import { FaBars, FaTimes, FaLinkedinIn, FaGithub, FaWhatsapp, FaYoutube, FaInstagram } from 'react-icons/fa'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -15,9 +15,10 @@ export default function Header() {
   ]
 
   const socialLinks = [
-    { Icon: FaLinkedinIn, url: 'https://linkedin.com/in/almirfernandespereira', label: 'LinkedIn' },
-    { Icon: FaGithub, url: 'https://github.com/almirfernandes', label: 'GitHub' },
-    { Icon: FaWhatsapp, url: 'https://wa.me/5531985676251', label: 'WhatsApp' },
+    { Icon: FaLinkedinIn, url: 'https://www.linkedin.com/in/almirfernandespereira/', label: 'LinkedIn' },
+    { Icon: FaGithub, url: 'https://github.com/infonandes', label: 'GitHub' },
+    { Icon: FaYoutube, url: 'https://www.youtube.com/@INFONANDES', label: 'YouTube' },
+    { Icon: FaInstagram, url: 'https://www.instagram.com/infonandes', label: 'Instagram' },
   ]
 
   return (
